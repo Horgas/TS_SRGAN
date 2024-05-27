@@ -23,7 +23,7 @@ specific point.
 
 ## Model Architecture
 
-![Simplified architecture of TS_SRGAN](images/TS_SRGAN.jpg)
+![Simplified architecture of TS_SRGAN](images/TS_SRGAN.jpg "Simplified architecture of TS_SRGAN")
 
 ## Features
 

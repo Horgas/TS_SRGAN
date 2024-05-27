@@ -3,7 +3,7 @@
 # TS_SRGAN (Time-Series Super-Resolution GAN)
 TS_SRGAN is a Python-based project implementing a Generative Adversarial Network (GAN) 
 designed for enhancing the resolution of time-series data. 
-Inspired by the original SRGAN architecture from the  paper Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network, this project aims to model and generate 
+Inspired by the original SRGAN architecture from the  paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/pdf/1609.04802), this project aims to model and generate 
 high-resolution data from low-resolution inputs, 
 applicable across various domains such as financial data, environmental sensor data, 
 and medical signal processing.
@@ -18,7 +18,8 @@ varying accuracy. This is done by adjusting the error tolerance for the low-reso
 high-resolution trajectories and keeping the amount of time points fixed. Because of the
 nature of GAN, the Generator was trained to enhance the lower-resolution trajectory by
 reconstructing their high-resolution counterparts and therefore deceive the Discriminator
-with its output
+with its output. This experiment showed that the network was able to improve the trajectories until a
+specific point.
 
 
 ## Features
@@ -29,15 +30,11 @@ with its output
 
 ## Modules Description
 
-data.py: Generates and preprocess data (from the Lorenz attractor)
-model.py: Contains the definitions of the Generator and Discriminator networks
-loss.py: Defines the loss functions used in training the GAN
-training.py: Manages the training loops, including backpropagation and optimization
-plot.py: Provides functions for visualizing both input and output data, as well as training progress.
+- **data.py**: Generates and preprocess data (from the Lorenz attractor)
+- **model.py**: Contains the definitions of the Generator and Discriminator networks
+- **loss.py**: Defines the loss functions used in training the GAN
+- **training.py**: Manages the training loops, including backpropagation and optimization
+- **plot.py**: Provides functions for visualizing both input and output data, as well as training progress.
 
-## License
-This project is licensed under the MIT License 
 
-## Acknowledgments
-Thanks to anyone whose code was used
 

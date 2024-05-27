@@ -21,6 +21,9 @@ reconstructing their high-resolution counterparts and therefore deceive the Disc
 with its output. This experiment showed that the network was able to improve the trajectories until a
 specific point.
 
+## Model Architecture
+
+![Simplified architecture of TS_SRGAN](images/TS_SRGAN.jpg)
 
 ## Features
 

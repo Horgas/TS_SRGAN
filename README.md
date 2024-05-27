@@ -43,11 +43,11 @@ specific point.
 
 ## Experiment Results
 
-### Experiment 1: TS_SRGAN
+### Experiment 1: Enhance the temporal resolution of a low-resolution trajectory
 
 ![TS_SRGAN](images/TS_SRGAN.jpg)
 
-### Experiment 2: Trajectory Improvement
+### Experiment 1: 
 
 <table>
   <tr>
@@ -62,7 +62,7 @@ specific point.
   </tr>
 </table>
 
-### Experiment 5: Trajectory Improvement
+### Experiment 5: Enhancing the accuray of a low-resolution trajectory
 
 <table>
   <tr>

@@ -39,5 +39,41 @@ specific point.
 - **training.py**: Manages the training loops, including backpropagation and optimization
 - **plot.py**: Provides functions for visualizing both input and output data, as well as training progress.
 
+## Experiments 
 
+## Experiment Results
+
+### Experiment 1: TS_SRGAN
+
+![TS_SRGAN](images/TS_SRGAN.jpg)
+
+### Experiment 2: Trajectory Improvement
+
+<table>
+  <tr>
+    <th>Low Resolution</th>
+    <th>High Resolution</th>
+    <th>Super Resolution</th>
+  </tr>
+  <tr>
+    <td><img src="images/lowresolution2.jpg" alt="Low Resolution 2" width="300"/></td>
+    <td><img src="images/highresolution2.jpg" alt="High Resolution 2" width="300"/></td>
+    <td><img src="images/superresolution2.jpg" alt="Super Resolution 2" width="300"/></td>
+  </tr>
+</table>
+
+### Experiment 5: Trajectory Improvement
+
+<table>
+  <tr>
+    <th>Low Resolution</th>
+    <th>High Resolution</th>
+    <th>Super Resolution</th>
+  </tr>
+  <tr>
+    <td><img src="images/lowresolution5.jpg" alt="Low Resolution 5" width="300"/></td>
+    <td><img src="images/highresolution5.jpg" alt="High Resolution 5" width="300"/></td>
+    <td><img src="images/superresolution5.jpg" alt="Super Resolution 5" width="300"/></td>
+  </tr>
+</table>
 

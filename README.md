@@ -62,7 +62,7 @@ specific point.
   </tr>
 </table>
 
-### Experiment 5: Enhancing the accuray of a low-resolution trajectory
+### Experiment 2: Enhancing the accuray of a low-resolution trajectory
 
 <table>
   <tr>

@@ -1,6 +1,11 @@
 #generating data
 
-
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
 
 def my_lorenz_system(t,vec,sigma,p,beta):
     x,y,z = vec

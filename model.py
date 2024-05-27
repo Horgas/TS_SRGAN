@@ -1,5 +1,10 @@
 #architecture
 
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import math
+
 class Generator_net(nn.Module):
     def __init__(self, upscale_factor, num_blocks):
         super(Generator_net, self).__init__()

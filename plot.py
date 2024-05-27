@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+from mpl_toolkits import mplot3d
 
 # converting the list to tensors and changing dimensions
 g_loss_tensor = torch.tensor(g_loss_tensor)

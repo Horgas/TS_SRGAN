@@ -1,4 +1,7 @@
 #loss
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 
 def loss_function_mse(generated, real):
   mse_loss = nn.MSELoss()
